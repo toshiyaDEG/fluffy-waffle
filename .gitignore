@@ -133,4 +133,4 @@ dmypy.json
 media/
 
 # settings
-#settings.py
+settings.py
