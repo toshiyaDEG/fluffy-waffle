@@ -18,6 +18,7 @@ def home(request):
             recipient_list,
             fail_silently=False
         )
+
         return render(request, 'home/thankyou.html')
 
     return render(request, "home/home.html")
